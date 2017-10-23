@@ -25,8 +25,7 @@ class ViewController: UIViewController {
         myTextView.textAlignment = NSTextAlignment.center;
         myTextView.center = self.view.center;
         myTextView.sizeToFit();
-
-        
+        print("hoge");        
     }
 
     
