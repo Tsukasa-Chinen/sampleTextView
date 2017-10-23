@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="sampleTextView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="yZg-aB-qsf">
+                                <rect key="frame" x="16" y="20" width="338" height="323"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80320920724652978" green="0.94945323467254639" blue="0.94896712558947205" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <mutableString key="text">Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.Your customers dream of a happier and better life. Don’t move products. Enrich lives.The cure for Apple is not cost-cutting. The cure for Apple is to innovate its way out of its current predicament.The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.We think basically you watch television to turn your brain off, and you work on your computer when you want to turn your brain on.Your time is limited, so don’t waste it living someone else’s life.Don’t be trapped by dogma – which is living with the results of other people’s thinking.
+Don’t let the noise of others’ opinions drown out your own inner voice.
+And most important, have the courage to follow your heart and intuition.
+They somehow already know what you truly want to become. Everything else is secondary.Why join the navy if you can be a pirate?No one wants to die. Even people who wanna go to heaven don’t wanna die to get there.Stay hungry. Stay foolish.
+Be a yardstick of quality. Some people aren’t used to an environment where excellence is expected.Your customers dream of a happier and better life. Don’t move products. Enrich lives.The cure for Apple is not cost-cutting. The cure for Apple is to innovate its way out of its current predicament.The only way to do great work is to love what you do. If you haven’t found it yet, keep looking. Don’t settle. As with all matters of the heart, you’ll know when you find it.We think basically you watch television to turn your brain off, and you work on your computer when you want to turn your brain on.Your time is limited, so don’t waste it living someone else’s life.Don’t be trapped by dogma – which is living with the results of other people’s thinking.
+Don’t let the noise of others’ opinions drown out your own inner voice.
+And most important, have the courage to follow your heart and intuition.
+They somehow already know what you truly want to become. Everything else is secondary.Why join the navy if you can be a pirate?No one wants to die. Even people who wanna go to heaven don’t wanna die to get there.Stay hungry. Stay foolish.
+
+
+
+
+
+
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LOS-2K-N8h">
+                                <rect key="frame" x="216" y="359" width="138" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="キーボードを閉じる"/>
+                                <connections>
+                                    <action selector="tapClose:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tEX-uV-MZf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="myTextView" destination="yZg-aB-qsf" id="5cw-JZ-MNz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>
